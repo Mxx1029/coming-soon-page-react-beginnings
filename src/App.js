@@ -1,7 +1,7 @@
 import './App.css';
-import Heading from './Heading.jsx';
-import Teaser from './Teaser.jsx';
-import Hashtag from './Hashtag';
+import Heading from './components/Heading.jsx';
+import Teaser from './components/Teaser.jsx';
+import Hashtag from './components/Hashtag';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Heading />
       <Teaser />
       <div class="hashtag-wrapper">
-        <Hashtag /> <Hashtag /> <Hashtag /> <Hashtag />
+        <Hashtag /><Hashtag /><Hashtag /><Hashtag />
       </div>
     </div>
   );
